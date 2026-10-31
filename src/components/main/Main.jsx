@@ -58,10 +58,10 @@ export default function Main() {
             <div className={styles.main_session_cv}>
 
               {/* Visualizar currículo */}
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.button}>{t("buttons.cv")}</a>
+              <a href="/resumejr.pdf" target="_blank" rel="noopener noreferrer" className={styles.button}>{t("buttons.cv")}</a>
 
               {/* Baixar currículo */}
-              <a href="/resume.pdf" download className={styles.button}>{t("buttons.cv2")}</a>
+              <a href="/resumejr.pdf" download className={styles.button}>{t("buttons.cv2")}</a>
             </div>
           </div>
 
