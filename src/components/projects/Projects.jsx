@@ -1,4 +1,4 @@
-import devblog from './../../assets/images/projeto_devblog.webp'
+import novacidade from './../../assets/images/projeto_nova_cidade.webp'
 import financas from './../../assets/images/projeto_financas.webp'
 import multistepform from './../../assets/images/projeto_multistepform.webp'
 import AOS from 'aos';
@@ -23,6 +23,15 @@ export default function Projects() {
   // Facilita adicionar novos projetos no futuro
   const listaProjetos = [
     { 
+      imagem: `${novacidade}`,  
+      in_development: "projects.project0.in_development",
+      nameKey: "projects.project0.name",
+      descKey: "projects.project0.description",
+      tecnologias: "projects.project0.technologies",
+      deploy: 'https://novacidadecombr.vercel.app/',
+      github: 'https://github.com/Elaine-Tavares/novacidade.com.br',
+      },
+    { 
       imagem: `${financas}`,  
       // in_development: "projects.project1.in_development",
       nameKey: "projects.project1.name",
@@ -34,21 +43,12 @@ export default function Projects() {
 
       {
       imagem: `${multistepform}`,
-      nameKey: "projects.project3.name",
-      descKey: "projects.project3.description",
-      tecnologias: "projects.project3.technologies",
-      deploy: 'https://formulariomultistep-omega.vercel.app/',
-      github: 'https://github.com/Elaine-Tavares/formulario_multistep.git',
-      },
-
-    {
-      imagem: `${devblog}`,
       nameKey: "projects.project2.name",
       descKey: "projects.project2.description",
       tecnologias: "projects.project2.technologies",
-      deploy: 'https://elainetavaresweb.com/devblog/',
-      github: 'https://github.com/Elaine-Tavares/devblog',
-      }   
+      deploy: 'https://formulariomultistep-omega.vercel.app/',
+      github: 'https://github.com/Elaine-Tavares/formulario_multistep.git',
+      }  
   ];
 
   return (

@@ -26,6 +26,12 @@
   
   "projects": {
     "title": "Projetos",
+      "project0": {
+      "in_development": "Em Desenvolvimento",
+      "name": "Projeto Voluntário Nova Cidade Juntos Somos Mais Fortes",
+      "description": "<1>Descrição: </1>Site institucional desenvolvido de forma voluntária para fortalecer a presença digital do projeto social Nova Cidade Juntos Somos Mais Fortes. A aplicação apresenta suas iniciativas, cursos e formas de apoio, oferecendo uma experiência responsiva, acessível e acolhedora para aproximar o projeto da comunidade.",
+      "technologies": "<1>Tecnologias: </1> React | JavaScript | HTML | CSS Modules | Git/GitHub"   
+    },
     "project1": {
       "in_development": "Concluído",
       "name": "ProjetoFinanças",
@@ -33,13 +39,6 @@
       "technologies":"<1>Tecnologias: </1> React | JavaScript | HTML | CSS Modules | PHP | MySQL | API REST | Git/GitHub"
     },
     "project2": {
-      "in_development": "Concluído",
-      "name": "DevBlog",
-      "description": "<1>Descrição: </1>O DevBlog não é apenas mais um blog; é uma Single Page Application (SPA) robusta, projetada para ser um ponto de encontro entre desenvolvedores. Este projeto demonstra a integração fluida entre um frontend moderno e reativo com um backend sólido, focando em performance, experiência do usuário (UX) e facilidade de gerenciamento.",
-      "technologies": "<1>Tecnologias :</1> React | React Router Dom | CSS Modules | React Icons | Axios | PHP | MySQL"
-    },
-
-    "project3": {
       "in_development": "Concluído",
       "name": "Formulário Multietapas",
       "description": "<1>Descrição: </1> Aplicação Single Page responsiva desenvolvida com React que implementa um formulário multietapas com arquitetura baseada em componentes, validação de dados e feedback interativo ao usuário.",
@@ -62,9 +61,9 @@
 
   "form": {
     "title": "Contato",
-    "text": "Precisa de uma presença online impactante? Vamos conversar!" ,
+    "text": "Surgiu interesse? Vamos conversar!" ,
     "name": "Seu nome",
-    "email": "Seu Email",
+    "email": "Seu email",
     "message": "Sua mensagem",
     "send": "Enviar",
     "empty_input": "Por favor, preencha todos os campos.",

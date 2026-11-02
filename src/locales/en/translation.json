@@ -26,19 +26,19 @@
   
   "projects": {
     "title": "Projects",
+    "project0": {
+      "in_development": "Concluído",
+      "name": "Nova Cidade Juntos Somos Mais Fortes Volunteer Project",
+      "description": "<1>Description: </1>Institutional website developed voluntarily to strengthen the digital presence of the Nova Cidade Juntos Somos Mais Fortes social project. The application presents its initiatives, courses, and ways to support the project, providing a responsive, accessible, and welcoming experience to bring the project closer to the community.",
+      "technologies": "<1>Technologies: </1> React | JavaScript | HTML | CSS Modules | Git/GitHub"
+    },
     "project1": {
       "in_development": "Completed",
       "name": "FinanceProject",
       "description": "<1>Description: </1> Full-stack web application for financial management, featuring complete CRUD implementation, REST API consumption, and database integration. Interface built with React, including state management and HTTP requests (GET, POST, PUT, DELETE)",
       "technologies": "<1>Technologies: </1> React | JavaScript | HTML | CSS Modules | PHP | MySQL | API REST | Git/GitHub"
     },
-    "project2": {
-      "in_development": "Completed",
-      "name": "DevBlog",
-      "description": "<1>Description: </1> DevBlog is not just another blog; it is a robust Single Page Application (SPA), designed to be a meeting point for developers. This project demonstrates the seamless integration between a modern and reactive frontend with a solid backend, focusing on performance, user experience (UX), and ease of management.",
-      "technologies": "<1>Technologies :</1> React | React Router DOM | CSS Modules | React Icons | Axios | PHP | MySQL"
-    },
-   "project3": {
+   "project2": {
       "in_development": "Completed",
       "name": "Multistep Form",
       "description": "<1>Description: </1> A responsive Single Page Application built with React that implements a multistep form with component-based architecture, form validation, and interactive user feedback.",
@@ -61,7 +61,7 @@
 
   "form": {
     "title": "Contact",
-    "text": "Need a strong online presence? Let's talk!",
+    "text": "Interested? Let's talk!",
     "name": "Your Name",
     "email": "Your Email",
     "message": "Your Message",

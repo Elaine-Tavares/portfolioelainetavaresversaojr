@@ -64,15 +64,11 @@ textarea:focus {
   box-shadow: 0 -8px 12px -10px var(--text);/*sombra no topo da sessão*/
 }
 
-input::placeholder{
-  color: var(--placeholder_color);
-  font-size: 1rem;
-}
-
-
+input::placeholder, 
 textarea::placeholder {
   color: var(--placeholder_color);
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .btn_form {

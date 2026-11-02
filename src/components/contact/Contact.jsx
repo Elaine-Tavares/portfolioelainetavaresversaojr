@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useState, useRef  } from "react";
 import api from "../../../services/api";
 import { Trans, useTranslation } from "react-i18next";
 
 import styles from "./Contact.module.css"
 
 export default function Contact() {
+  const msgRef = useRef(null);
+
   const { t } = useTranslation(); //t() → Tradução para textos simples (string pura)
 
   //Estados dos inputs
@@ -87,7 +89,18 @@ export default function Contact() {
         setMsgError("") 
       }, 3000);
       return;
+
+    } finally {
+      scrollToMessage();
     }
+  }
+
+  //Função para o scroll da página subir até a mensagem do formulário para o usuário
+  function scrollToMessage() {
+    msgRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
   }
 
   return (
@@ -101,7 +114,7 @@ export default function Contact() {
       <form onSubmit={handleSubmit}>
 
         {/* Mensagens ao usuário */}
-        <div className={styles.msgs_to_user}>
+        <div className={styles.msgs_to_user} ref={msgRef}>
           {msgSuccess && <p className={`${styles.success} animate__animated animate__rubberBand`}>{msgSuccess}</p>}
               
           {msgError && <p className={`${styles.error} animate__animated animate__rubberBand`}>{msgError}</p>}

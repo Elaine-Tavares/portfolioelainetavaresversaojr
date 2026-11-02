@@ -27,7 +27,7 @@ export default function Footer() {
             <a href="https://github.com/Elaine-Tavares" target='_blank' rel="noopener noreferrer"><FaGithub className={styles.github}/></a>
 
             {/* Whats */}
-            <a href="https://wa.link/307ehj" target='_blank' rel="noopener noreferrer"><FaWhatsappSquare className={styles.whats}/></a>
+            <a href="https://wa.me/5521936188416?text=Ol%C3%A1%2C%20vi%20o%20seu%20portf%C3%B3lio%20e%20tenho%20uma%20proposta%20de%20emprego%20para%20voc%C3%AA." target='_blank' rel="noopener noreferrer"><FaWhatsappSquare className={styles.whats}/></a>
         </div> 
         
         <p className={styles.copy}>
